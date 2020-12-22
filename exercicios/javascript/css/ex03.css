@@ -1,0 +1,21 @@
+body {
+    background-color: darkcyan;
+}
+
+div{
+    width: 400px;
+    border-radius: 30px;
+    border: burlywood solid 10px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 10%;
+    height: 300px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.527);
+}
+img {
+    margin: 100px;
+    width: 200px;
+}
+#img2 {
+    display: none;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #02171f;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+.mestre{
+    width: 650px;
+    border-radius: 30px;
+    border: white solid 5px;
+    background-color: #6495ED;
+    margin: auto;
+    padding: 35px;
+    margin-top: 60px;
+    min-height: 400px;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.671);
+}
+input {
+    border-radius: 7px;
+    font-size: 1.4em;
+    border: #237da0 solid 2.5px;
+}
+label {
+    font-size: 1.4em;
+    color: white;
+    padding: 10px;
+}
+.botao {
+    margin-left: 20px;
+    padding: 7px;
+    border-radius: 7px;
+    display: inline;
+    background-color: white;
+    color: #237da0;
+    box-shadow: 0px 2px 2px 2px rgba(211, 210, 210, 0.671);
+    border: rgb(211, 210, 210) solid 2px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+.botao:hover {
+    /* border: white solid 3px;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.671); */
+    box-shadow: 0px 0px 1px 1px rgba(211, 210, 210, 0.671);
+    border: rgb(211, 210, 210) solid 1px;
+    
+}
+p {
+    color: white;
+}
+.res {
+    margin-left: 20px;
+    padding: 15px;
+    color: white;
+}
