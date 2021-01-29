@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX-12</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            color: white;
+        }
+        input{
+            margin: 20px;
+        }
+        .tabuada {
+            background-color: rgb(58, 113, 158);
+            font-size: 1.3em;
+            width: 230px;   
+            border-radius: 15px;
+            box-shadow: 0px 0px 5px 5px white;
+            margin: 20px auto;
+        }
+        #res > p {
+            text-align: start;
+            padding: 0px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mestre">
+        <h1>Tabuáda</h1>
+        <label for="num">Digite o número a ser multiplicado</label>
+        <input type="number" id="num">
+        <br>
+        <label for="vezes">Agora quantas vezes deve ser multiplicado</label>
+        <input type="number" id="vezes">
+        <br>
+        <input type="button" class="botao" id="botao" value="MOSTRAR"></input>
+        <div class="res" id="res"></div>
+    </div>
+
+    <script src="js/ex12.js"></script>
+</body>
+</html>

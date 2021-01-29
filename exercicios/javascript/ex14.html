@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX-14</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mestre">
+        <label for="num">Qual número apareceu no alerta?</label>
+        <br><br>
+        <input type="number" id="num">
+        <input type="button" class="botao" id="botao" value="VERIFICAR"></input>
+        <div class="res" id="res"></div>
+    </div>
+
+    <script>
+        let aleatorio = Math.floor(Math.random() * 1000 + 1)
+        window.alert(aleatorio)
+        document.querySelector('#botao').addEventListener('click', ()=> {
+            let num = Number(document.querySelector('#num').value)
+            let res = document.getElementById('res')
+            if (num != aleatorio){
+                res.innerHTML = `Era o número ${aleatorio}, você errou :/` 
+            } else {
+                res.innerHTML = `Você acertou ;) Era o número ${aleatorio}`
+            }
+        })
+    </script>
+</body>
+</html>

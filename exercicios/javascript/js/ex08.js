@@ -1,6 +1,6 @@
 
 res = document.getElementById('res')
-function Somar(num1,num2) {
+function Somar(num1=0,num2=0) {
     soma = num1 + num2
     return soma
 }

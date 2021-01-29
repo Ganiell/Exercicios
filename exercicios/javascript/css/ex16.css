@@ -1,0 +1,119 @@
+*{
+    font-family: 'Russo One', sans-serif;
+}
+body {
+    background-color: #02171f;
+}
+p {
+    color: white;
+}
+label {
+    font-size: 1.4em;
+    color: white;
+    padding: 10px;
+}
+.linha{
+    border-radius: 30px;
+    border: white solid 5px;
+    background-color: white;
+    width: 80%;
+    margin: 35px auto 0 auto;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.671);
+}
+.numeros{
+    display: flex;
+    flex-flow: wrap;
+    width: 220px;
+    margin: 20px 0px 0px 5px;
+    justify-content: space-around;
+}
+.numero {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:#c4d1d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    color: gray;
+    margin-top: 13px;
+    cursor: pointer;                                
+    transition: ease-in-out 0.25s; 
+}
+.numero:hover{
+    color: white;
+    background-color: gray;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.671);
+    transition: ease-in-out 0.25s; 
+}
+.operadores{
+    width: 55px;
+    height: 280px;
+    background-color:#c4d1d6;
+    border-radius: 10px;
+    margin: 33px 0px 0px 4px;
+}
+.operador {
+    margin: 5px 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color:#c4d1d6;
+    color: gray;
+    cursor: pointer;
+    transition: ease-in-out 0.25s; 
+
+}
+.operador:hover{
+    color: white;
+    background-color: gray;
+    transition: ease-in-out 0.25s; 
+}
+.mestre{
+    border-radius: 30px;
+    border: white solid 5px;
+    background-color: #2a3d61; /*#39507a*/
+    width: 305px;
+    height: 450px;
+    margin: 40px auto 0 auto;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.671);
+}
+.botoes{
+    margin: 28px auto 0px auto;
+    width: 295px;
+    display: flex;
+}
+#res {
+    background-color: white;
+    height: 115px;
+    border-radius: 20px;
+    width: 90%;
+    color: black;
+    margin: 22px auto -40px auto;
+}
+#res2 {
+    border-radius: 20px;
+    background-color: transparent;
+    border:none;
+    color: black;
+    width: 240px;
+    height: 50px;
+    text-align: end;
+    font-size: 2em;
+    padding: 6px 15px;
+}
+#previa{
+    background-color: transparent;
+    border-radius: 20px;
+    border:none;
+    width: 240px;
+    height: 25px;
+    text-align: end;
+    font-size: 1.2em;
+    padding: 0px 13px;
+}

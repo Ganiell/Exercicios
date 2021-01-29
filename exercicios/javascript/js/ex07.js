@@ -3,4 +3,4 @@ function botao(cor){
 }
   setTimeout(function(){
         window.alert("Olá mundo atrasado quatro segundos"); 
-      }, 4000);  
+  }, 4000);  
